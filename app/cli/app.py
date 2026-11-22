@@ -1,3 +1,5 @@
+import utils.transport
+import utils.session
 from app.cli import auth_menu, households_menu, readings_menu, reports_menu
 from app.cli.prompts import Cancelled, header, run_action, run_menu
 from app.database import Database
